@@ -57,7 +57,8 @@ class _BloodTracePageState extends State<BloodTracePage>
   @override
   bool get wantKeepAlive => true;
 
-  Future<Function> _function(){
-    return Navigator.push(context, MaterialPageRoute(builder: (context) => BloodTraceDetailPage()));
+  Future<Function> _function() {
+    return Navigator.push(context,
+        MaterialPageRoute(builder: (context) => BloodTraceDetailPage()));
   }
 }
